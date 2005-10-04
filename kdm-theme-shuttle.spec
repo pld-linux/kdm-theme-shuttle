@@ -13,8 +13,6 @@ Source0:	http://www.kde-look.org/content/files/25503-%{_theme}.tar.gz
 Patch0:		%{name}-pl.patch
 URL:		http://www.kde-look.org/content/show.php?content=25503
 Requires:	kdebase-desktop >= 9:3.2.0
-# I believe the following one is a complete bullsh^t, enabling a theme is a two-line edit in kdmrc
-# Requires:	kdmtheme
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
