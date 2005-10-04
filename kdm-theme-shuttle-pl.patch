@@ -1,0 +1,27 @@
+diff -uNr kdm-theme-shuttle-01.orig/shuttle/shuttle.xml kdm-theme-shuttle-01/shuttle/shuttle.xml
+--- kdm-theme-shuttle-01.orig/shuttle/shuttle.xml	2005-06-17 14:50:56.000000000 +0200
++++ kdm-theme-shuttle-01/shuttle/shuttle.xml	2005-10-04 09:20:11.000000000 +0200
+@@ -73,6 +73,7 @@
+ 					<normal color="#FFFFFF" font="Sans 12"/>
+ 					<pos anchor="n" x="50%"/>
+ 					<text>Login failed.</text>
++					<text xml:lang="pl">Logowanie nieudane.</text>
+ 				</item>
+ 			</box>
+ 		</item>
+@@ -120,6 +121,7 @@
+ 			<text xml:lang="ca">Sessi&#xF3;</text>
+ 			<text xml:lang="es">Sesi&#xF3;n</text>
+ 			<text xml:lang="en">Session</text>
++			<text xml:lang="pl">Sesje</text>
+ 		</item>
+ 	</item>
+ 	
+@@ -136,6 +138,7 @@
+ 			<text xml:lang="ca">Men&#xFA;</text>
+ 			<text xml:lang="es">Men&#xFA;</text>
+ 			<text xml:lang="en">Menu</text>
++			<text xml:lang="pl">Menu</text>
+ 		</item>
+ 	</item>
+ </item>
