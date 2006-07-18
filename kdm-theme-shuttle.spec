@@ -5,7 +5,7 @@ Summary:	Shuttle KDM theme
 Summary(pl):	Motyw KDM Shuttle
 Name:		kdm-theme-%{_theme}
 Version:	01
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Amusements
 Source0:	http://www.kde-look.org/content/files/25503-%{_theme}.tar.gz
@@ -13,6 +13,7 @@ Source0:	http://www.kde-look.org/content/files/25503-%{_theme}.tar.gz
 Patch0:		%{name}-pl.patch
 URL:		http://www.kde-look.org/content/show.php?content=25503
 Requires:	kdebase-desktop >= 9:3.2.0
+Requires:	kdm >= 9:3.4.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
