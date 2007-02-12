@@ -2,7 +2,7 @@
 %define		_theme		shuttle
 
 Summary:	Shuttle KDM theme
-Summary(pl):	Motyw KDM Shuttle
+Summary(pl.UTF-8):   Motyw KDM Shuttle
 Name:		kdm-theme-%{_theme}
 Version:	01
 Release:	2
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Shuttle KDM Theme.
 
-%description -l pl
+%description -l pl.UTF-8
 Motyw KDM Shuttle.
 
 %prep
