@@ -2,7 +2,7 @@
 %define		_theme		shuttle
 
 Summary:	Shuttle KDM theme
-Summary(pl.UTF-8):   Motyw KDM Shuttle
+Summary(pl.UTF-8):	Motyw KDM Shuttle
 Name:		kdm-theme-%{_theme}
 Version:	01
 Release:	2
